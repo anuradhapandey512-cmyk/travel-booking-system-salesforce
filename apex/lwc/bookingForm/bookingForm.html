@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Travel Booking">
+        
+        <lightning-input label="Name" onchange={handleName}></lightning-input>
+        
+        <lightning-input type="date" label="Travel Date" onchange={handleDate}></lightning-input>
+        
+        <lightning-input label="Destination" onchange={handleDestination}></lightning-input>
+
+        <br/>
+
+        <lightning-button label="Book Now" onclick={handleBooking} variant="brand"></lightning-button>
+    
+    </lightning-card>
+</template>
